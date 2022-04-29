@@ -5,13 +5,7 @@ import pandas as pd
 import requests
 
 
-# 68.95,35,61833.9,256.09,Cloned 5thgeneration orchestration,Wrightburgh,0,Tunisia,2016-03-27 00:53:11,0
 
-
-# NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
-
-
-# NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
 API_KEY = "iYwv7fdzQtEg5OT77SDtB3TjPFTIBShtT4C7yX-08UcF"
 token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={"apikey": API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
 mltoken = token_response.json()["access_token"]
@@ -43,7 +37,7 @@ country = st.text_input('Enter Country Name')
 timestamp = st.text_input('Enter Timestamp')
 
 
-# main logic of the code,linking the data filled in the form to the IBM watson studio
+
 
 try:
     if st.button('Predict'):
