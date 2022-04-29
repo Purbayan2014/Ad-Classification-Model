@@ -16,7 +16,7 @@ header = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + mltok
 st.title('Advertisement Success Prediction')
 
 
-# setting up the form
+
 
 daily_time = st.number_input('Enter Your Daily Time')
 
