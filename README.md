@@ -109,7 +109,11 @@ Alogrithm used :
 
 ## About the Model
 
+# LGBM Classifier
+
 ![image](https://user-images.githubusercontent.com/90950629/165961451-e37c1c71-9528-47a7-8758-12afbf1b3c55.png)
+
+47 features  and 1000 predicting instances have been used
 
 The **Precision vs. Recall Curve** chart plots the proportion of outcomes predicted to be positive that are positive, also known as precision, on the vertical axis, against the proportion of positive outcomes that are correctly predicted, also known as recall, sensitivity, probability of detection or true positive rate (TPR), on the horizontal axis, as the threshold for positive classification is varied across the predicted probability range from 1 down to 0. When the threshold is set high, few false positives will occur and precision will be high, while recall will be low. As the threshold is decreased, recall will increase and precision will generally decrease. Although there is generally a trade off between precision and recall, the curve may not be strictly monotonically decreasing. The area under the Prevision vs. Recall curve is generally preferred to the area under the ROC curve as an evaluation statistic for binary classification when the proportions of positive and negative observed instances are highly imbalanced.
 
